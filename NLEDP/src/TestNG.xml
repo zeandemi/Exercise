@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Happy-Path">
+        <parameter name="driverType" value="Chrome"/>
+        <parameter name="word" value="London"/>
+        <packages>
+            <package name="PageTests"/>
+        </packages>
+        <classes>
+            <class name="PageTest.HomePageTest">
+                <methods>
+                    <include name="searchForStringTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="apiTests">
+        <packages>
+            <package name="ApiTest"/>
+        </packages>
+        <classes>
+            <class name="ApiTest.Pet">
+            </class>
+       </classes>
+   </test>
+</suite>
+
