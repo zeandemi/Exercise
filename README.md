@@ -1,5 +1,5 @@
 # Exercise
-This is simple Selenium Test and API Test, using TestNG framework (TestNG xml File), maven and Java. The project contains a driver folder with selenium drivers
+This is simple Selenium Test and API Test, using TestNG framework (TestNG xml File), maven, RestAssured (for api testing) and Java. The project contains a driver folder with selenium drivers
 source folder, and TestNG xml for test suite configuration.
 
 
@@ -19,8 +19,8 @@ source folder, and TestNG xml for test suite configuration.
  
 ### Test categories:
  1. Page tests (src/test/java/PageTest) to test the Wikipedia Page
- 2. API tests (src/test/java/ApiTest) to the the Api returning statue of pet.
+ 2. API tests (src/test/java/ApiTest) to test the Api returning statue of pet.
  
  P.S
-  There is noticable dependancy error that I couldn't resolve and experienced by other IT professsionals on stackoverflow. 
+  There is noticable io.restassured dependancy error that I couldn't resolve and experienced by other IT professsionals on stackoverflow. 
  
