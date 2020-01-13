@@ -10,12 +10,12 @@ source folder, and TestNG xml for test suite configuration.
  3. Open a terminal
  4. Create a folder and cd into the folder
  5. Clone the repo with the command below
-      git clone https://github.com/zeandemi/Exercise.git  
+      - git clone https://github.com/zeandemi/Exercise.git  
  
 ### To run tests follow this steps:
  1. Ensure you are in the root folder
  2. Execute command below 
-      mvn clean test
+      -  mvn clean test
  
 ### Test categories:
  1. Page tests (src/test/java/PageTest) to test the Wikipedia Page
